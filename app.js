@@ -2,7 +2,7 @@ import { createServer } from 'http';
 const port = process.env.PORT || 3000;
 
 const requestHandler = (request, response) => {
-  response.end('Hello World from AWS Elastic Beanstalk!');
+  response.end('Hello World from AWS Elastic Beanstalk, tiny change!');
 };
 
 const server = createServer(requestHandler);
